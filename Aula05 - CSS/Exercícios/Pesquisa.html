@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa sobre seletores</title>
+
+    <style>
+        .titulo{
+            text-align: center;
+            background-color: beige;
+        }   
+        .seletor{
+            background-color: antiquewhite;
+        }
+
+        ::selection {
+            background-color: #ffde59;
+            color: #111;
+        }
+    </style>
+    
+
+</head>
+    <body>
+        <header>
+            <h1 class="titulo">Seletores</h1>
+        </header>
+        <h2 class="seletor">Seletor Atributo: </h2>
+        <p>Um seletor de atributo em CSS é um recurso que permite estilizar elementos HTML com base na presença, 
+            no valor ou em partes do valor de um atributo específico (como type, href, target ou atributos personalizados data-*).</p>
+        
+        <h2 class="seletor">Seletor Descendente</h2>
+        <p>O seletor descendente em CSS é um combinador representado por um espaço em branco ( ) 
+            entre dois seletores, usado para aplicar estilos a elementos que estão aninhados dentro de outros.</p>
+
+        <h2 class="seletor">Seletor Filho Direto</h2>
+        <p>O seletor de filho direto (ou combinador de filho) em CSS é representado pelo símbolo de maior que (>) e serve para selecionar apenas os elementos que são filhos 
+            imediatos de um elemento pai específico, ignorando netos ou outros descendentes mais distantes.</p>
+
+        <h2 class="seletor">Seletor Adjacente Direto</h2>
+        <p>O seletor adjacente direto (ou seletor de irmão adjacente) em CSS seleciona um 
+            elemento que está imediatamente após outro elemento específico, compartilhando o mesmo elemento pai.</p>
+
+        <h2 class="seletor">Seletor de irmãos Gerais</h2>
+        <p>O seletor de irmãos gerais no CSS é um combinador representado pelo símbolo de til (~). Ele serve para selecionar todos os elementos irmãos que aparecem depois de um 
+            elemento especificado, desde que estejam no mesmo nível hierárquico (compartilhando o mesmo elemento pai)</p>
+
+        <h2 class="seletor">Seletor de PseudoClasse</h2>
+        <p>Um seletor de pseudoclasse em CSS é uma palavra-chave adicionada a um seletor que define um estado especial ou uma condição específica de um elemento.
+            Ela é indicada pelo símbolo de dois-pontos (:) e não altera o HTML, 
+            mas muda o estilo do elemento dinamicamente de acordo com a interação do usuário ou a sua posição na estrutura da página</p>
+
+        <h2 class="seletor">Seletor de PseudoElemento</h2>
+        <p>Um seletor de pseudoelemento no CSS é uma palavra-chave adicionada a um seletor para estilizar uma parte específica de um elemento selecionado.
+            A sintaxe oficial usa dois dois-pontos (::) seguidos do nome do pseudoelemento:</p>
+    </body>
+</html>
