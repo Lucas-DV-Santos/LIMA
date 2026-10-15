@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Solicitação de Orçamento</title>
+</head>
+<body>
+    <h1>Solicitação de Orçamento</h1>
+    <form>
+        
+        <label>Nome:</label>
+        <input type="text" name="nome" placeholder="Digite seu nome" required><br><br>
+        
+        <label>Empresa:</label>
+        <input type="text" name="empresa" placeholder="Digite o nome da empresa" required><br><br>
+        
+        <label>E-mail:</label>
+        <input type="email" name="email" placeholder="Digite seu e-mail" required><br><br>
+        
+        <label>Telefone:</label>
+        <input type="tel" name="telefone" placeholder="(00) 00000-0000" pattern="\([0-9]{2}\) [0-9]{4,5}-[0-9]{4}" required><br><br>
+        
+        <label>Descrição do Projeto:</label><br>
+        <textarea name="descricao" placeholder="Descreva seu projeto" required></textarea><br><br>
+        
+        <label>Prazo de Entrega Desejado:</label>
+        <input type="date" name="prazo" required><br><br>
+        
+        <label>Orçamento Disponível (R$):</label>
+        <input type="number" name="orcamento" placeholder="Digite o orçamento disponível" min="0" step="0.01" required><br><br>
+        
+        <label>Local de Entrega:</label>
+        <input type="text" name="local" placeholder="Digite o endereço de entrega" required><br><br>
+        
+        <label>Referência do Projeto Anterior:</label>
+        <input type="text" name="referencia" placeholder="Informe uma referência ou link"><br><br>
+        
+        <label>Preferência de Contato:</label><br>
+        <label>
+            <input type="radio" name="contato" value="E-mail" required> E-mail
+        </label><br>
+        <label>
+            <input type="radio" name="contato" value="Telefone"> Telefone
+        </label><br>
+        <label>
+            <input type="radio" name="contato" value="WhatsApp"> WhatsApp
+        </label><br><br>
+        <label>
+            <input type="checkbox" name="termos" required> Aceito os Termos e Condições
+        </label><br><br>
+        <label>
+            <input type="checkbox" name="novidades"> Receber Novidades por E-mail
+        </label><br><br>
+        <h3>Dados do Responsável</h3>
+        
+        <label>Nome do Responsável:</label>
+        <input type="text" name="responsavel" placeholder="Digite o nome do responsável" required><br><br>
+        
+        <label>Cargo do Responsável:</label>
+        <input type="text" name="cargo" placeholder="Digite o cargo do responsável" required><br><br>
+        
+        <label>Telefone do Responsável:</label>
+        <input type="tel" name="telefone_responsavel" placeholder="(00) 00000-0000" pattern="\([0-9]{2}\) [0-9]{4,5}-[0-9]{4}" required><br><br>
+        
+        <label>Data de Início do Projeto:</label>
+        <input type="date" name="inicio" required><br><br>
+        
+        <label>Número de Itens/Produtos:</label>
+        <input type="number" name="quantidade" placeholder="Digite a quantidade" required><br><br>
+        
+        <label>Urgência:</label>
+        <select name="urgencia" required>
+            <option value="" disabled selected>Selecione</option>
+            <option value="Baixa">Baixa</option>
+            <option value="Media">Média</option>
+            <option value="Alta">Alta</option>
+            <option value="Urgente">Urgente</option>
+        </select><br><br>
+        
+        <label>Setor da Empresa:</label>
+        <select name="setor" required>
+            <option value="" disabled selected>Selecione</option>
+            <option value="Tecnologia">Tecnologia</option>
+            <option value="Industria">Indústria</option>
+            <option value="Comercio">Comércio</option>
+            <option value="Servicos">Serviços</option>
+            <option value="Educacao">Educação</option>
+            <option value="Saude">Saúde</option>
+            <option value="Outro">Outro</option>
+        </select><br><br>
+        
+        <label>Método de Pagamento Preferido:</label>
+        <select name="pagamento" required>
+            <option value="" disabled selected>Selecione</option>
+            <option value="Pix">Pix</option>
+            <option value="Cartão de Crédito">Cartão de Crédito</option>
+            <option value="Cartão de Débito">Cartão de Débito</option>
+            <option value="Boleto">Boleto</option>
+            <option value="Transferência Bancária">Transferência Bancária</option>
+        </select><br><br>
+        
+        <button type="submit">Solicitar Orçamento</button>
+    </form>
+</body>
+</html>

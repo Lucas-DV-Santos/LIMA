@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Avaliação de Produto</title>
+</head>
+<body>
+    <h1>Avaliação de Produto</h1>
+    <form>
+        <label>Nome:</label>
+        <input type="text" name="nome" placeholder="Digite seu nome" required><br><br>
+        
+        <label>E-mail:</label>
+        <input type="email" name="email" placeholder="Digite seu e-mail" required><br><br>
+        
+        <label>Avaliação:</label>
+        <input type="number" name="avaliacao" placeholder="Dê uma nota de 1 a 10" min="1" max="10" required><br><br>
+        
+        <label>Comentário:</label><br>
+        <textarea name="comentario" placeholder="Escreva seu comentário" required></textarea><br><br>
+        
+        <label>Recomendaria?</label><br>
+        <label>
+            <input type="radio" name="recomendaria" value="Sim" required> Sim
+        </label><br>
+        <label>
+            <input type="radio" name="recomendaria" value="Não"> Não
+        </label><br><br>
+        
+        <label>Razão da Avaliação:</label>
+        <select name="razao" required>
+            <option value="">Selecione</option>
+            <option value="Qualidade">Qualidade</option>
+            <option value="Preço">Preço</option>
+            <option value="Atendimento">Atendimento</option>
+            <option value="Facilidade">Facilidade de uso</option>
+            <option value="Outro">Outro</option>
+        </select><br><br>
+        
+        <label>Sugestão de Melhoria:</label><br>
+        <textarea name="sugestao" placeholder="Digite sua sugestão de melhoria" required></textarea><br><br>
+        
+        <label>Idade:</label>
+        <input type="number" name="idade" min="1" required><br><br>
+        
+        <label>Gênero:</label><br>
+        <label>
+            <input type="radio" name="genero" value="Masculino" required> Masculino
+        </label><br>
+        <label>
+            <input type="radio" name="genero" value="Feminino"> Feminino
+        </label><br>
+        <label>
+            <input type="radio" name="genero" value="Outro"> Outro
+        </label><br><br>
+        
+        <label>Satisfação com o Produto:</label><br>
+        <input type="range" name="satisfacao" min="0" max="10" required><br><br>
+        
+        <label>Facilidade de Uso:</label>
+        <input type="number" name="facilidade" min="1" max="10" required><br><br>
+        
+        <label>Qualidade do Produto:</label>
+        <input type="number" name="qualidade" min="1" max="10" required><br><br>
+        
+        <label>Preço:</label>
+        <input type="number" name="preco" min="0" step="0.01" required><br><br>
+        
+        <label>Versão do Produto:</label>
+        <input type="text" name="versao" required><br><br>
+        
+        <label>Localização:</label>
+        <input type="text" name="localizacao" required><br><br>
+        
+        <label>Data da Compra:</label>
+        <input type="date" name="data_compra" required><br><br>
+        
+        <label>Origem da Compra:</label>
+        <select name="origem" required>
+            <option value="">Selecione</option>
+            <option value="Loja Física">Loja Física</option>
+            <option value="Site">Site</option>
+            <option value="Aplicativo">Aplicativo</option>
+            <option value="Outro">Outro</option>
+        </select><br><br>
+        
+        <label>Nível de Satisfação com o Suporte:</label><br>
+        <input type="range" name="suporte" min="0" max="10" required><br><br>
+        <button type="submit">Enviar Avaliação</button>
+    </form>
+</body>
+</html>
