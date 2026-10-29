@@ -54,7 +54,7 @@ body{
 .caixa2{
     background-color: white;
     width: 700px;
-    height: 170px;
+    height: 200px;
     border: 1px solid rgb(205, 205, 205);
     margin-top: 40px;
     padding: 20px;
@@ -68,6 +68,8 @@ body{
     grid-template-columns: repeat(3, 1fr);
     
 
+    
+
 }
 
 .caixa2  h3{
@@ -79,26 +81,56 @@ body{
 
 .CaiCol1{
     width: 100px;
+    height: 50px;
     margin: 20px;
     padding: 30px;
     background-color: lightblue;
     text-align: center;
     border-radius: 10px;
+    color: darkblue;
+    display: flex;
+    align-items: center;
+    border: 2px solid;
+    border-color: gray;
+    font-weight: bold;
+    font-size: 17px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+
 }
 
 .CaiCol2{
     width: 100px;
     margin: 20px;
+    height: 50px;
     padding: 30px;
     background-color: lightgreen;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    color: darkgreen;
+    align-items: center;
+    border: 2px solid;
+    border-color: gray;
+    font-weight: bold;
+    font-size: 17px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
 }
 
 .CaiCol3{
     width: 100px;
     margin: 20px;
+    height: 50px;
     padding: 30px;
     background-color: lightgoldenrodyellow;
-    border-radius: 10px;    
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: darkgoldenrod;
+    border: 2px solid;
+    border-color: gray;  
+    font-weight: bold;
+    font-size: 17px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
 }
 
