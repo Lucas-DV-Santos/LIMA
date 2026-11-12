@@ -95,7 +95,7 @@ body{
     background-color: white;
     border: 1px solid #dce4ee;
     border-radius: 8px;
-    max-width: 700px;
+    max-width: 12  1800px;
 }
 
 .section h2{
@@ -139,4 +139,23 @@ td{
 
 .links:hover{
     background-color: #104777;
+}
+
+.menu_horizontal .submenu{
+    display: none;
+}
+
+.menu_horizontal li:hover .submenu{
+    display: block;
+}
+
+.menu_horizontal a{
+    display: block;
+    margin-top: 10px;
+}
+
+.imagem2{
+    width: 300px;
+    border: 2px solid #173d69;
+    border-radius: 6px;
 }

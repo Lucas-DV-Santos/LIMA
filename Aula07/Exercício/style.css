@@ -1,0 +1,161 @@
+html{
+    scroll-behavior: smooth;
+} 
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #253348;
+    background-color: #f2f5f9;
+    display: flex;
+    flex-direction: column;
+    min-width: 100vh;
+}
+.topo{
+    background-color: beige;
+    padding: 24px;
+}
+
+.topo h1{
+    margin: 8px;
+}
+
+.menu ul{
+    display: flex;
+    margin: 8px;
+    gap: 10px;
+    list-style: none;
+    padding: 5px;
+}
+
+.menu a{
+    background-color: #0a0059;
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+.conteiner{
+    flex: 1;
+    display: flex;
+    padding: 20px 150px;
+}
+
+.card{
+    background-color: #e4b265;
+    width: 320px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-contenct{
+    padding: 40px 20px 20px 20px;
+    text-align: center;
+}
+
+.Imagem_Minha{
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 25px auto;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+.Imagem_Minha img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 80% center;
+}
+
+.nome{
+    font-size: 26px;
+    color: #0a0059;
+    font-weight: boldx;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.divider {
+    width: 40px;
+    height: 2px;
+    background-color: #2b3990;
+    margin: 0 auto 20px auto;
+}
+
+.Trabalho{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.social-footer {
+    background-color: #ffffff;  
+    padding: 18px 0;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    border-top: 1px solid #eee;
+}
+
+.social-footer a {
+    color: #222;
+    font-size: 18px;
+    text-decoration: none;
+    transition: transform 0.2s, color 0.2s;
+}
+
+.SobreMim{
+    background-color: rgb(236, 236, 219);
+    margin-left: 40px;
+    width: 800px;
+    border-radius: 10px;
+}
+
+.SobreMim h1{
+    font-family: Roboto ;
+    padding-left: 20px;
+}
+
+.SobreMim p{
+    font-family: Roboto;
+    padding-left: 20px;
+    text-align: justify;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.cards-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px; 
+}
+
+.cartao{
+    background-color: beige;
+    margin: 10px;
+    display: flex;
+    border-radius: 10px;
+}
+
+.cartao :hover{
+   background-color: rgb(55, 2, 73);
+   border-radius: 10px;
+   color: white;
+}
+
+.cartao-title{
+    text-align: center;
+}
+
+.img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin-left: 40px;
+
+}
